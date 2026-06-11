@@ -1158,6 +1158,11 @@
             font-weight: 300;
             margin: 0;
             flex-grow: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            min-height: calc(4 * 1.65rem);
         }
 
         .testimonial-card-custom:hover .testimonial-text-custom {
